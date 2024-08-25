@@ -1,1 +1,1 @@
-web: gunicorn qualifier.wsgi --log-file -
+web: gunicorn qualifier.wsgi:application
